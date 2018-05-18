@@ -1,0 +1,28 @@
+{
+  "name": "generation-of-emoticon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerhxx/Generation-of-emoticon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lerhxx/Generation-of-emoticon/issues"
+  },
+  "homepage": "https://github.com/lerhxx/Generation-of-emoticon#readme",
+  "devDependencies": {
+    "autoprefix": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "postcss-modules": "^1.1.0",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {},
+  "keywords": []
+}

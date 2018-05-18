@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>index</title>
+        <meta charset='utf-8' />
+        <style>
+            .preview { 
+                display: none;
+                border: none;
+                outline: none;
+            }
+            .content {
+                display: block;
+                width: 300px;
+                height: 30px;
+                padding: 0px 15px;
+                border: none;
+                border-radius: 3px;
+                font-size: 18px;
+                outline: none;
+            }
+            .canvas {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <input id='file' type='file' />
+        <div>
+            <img id='j-init' class='preview' src='./src/img/timg.jpg' />
+            <canvas id='j-preview' width='360' height='360'></canvas>
+            <input id='j-content' class='content' type='text' value='test' />
+        </div>
+        <button id='generate'>生成图片</button>
+        <canvas id='canvas' class='canvas'></canvas>
+        <script src='./src/index.js'></script>
+    </body>
+</html>
